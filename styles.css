@@ -1,0 +1,15 @@
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  
+    padding: 20px;
+    grid-gap: 10px;
+
+
+}
+
+body {
+    background-color: gray; /* Cambia 'ruta-de-la-imagen.jpg' por la ruta real de tu imagen */
+    display: 100%;/* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  }
